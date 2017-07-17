@@ -1,0 +1,40 @@
+.App {
+  margin    : 0 auto;
+  max-width : 800px;
+}
+
+.App-nav {
+  border-bottom : 2px solid #508fca;
+  margin        : 20px;
+  padding       : 10px;
+}
+
+.App-nav ul {
+  margin  : 0;
+  padding : 0;
+}
+
+.App-nav-item {
+  border-bottom : 4px solid transparent;
+  display       : inline-block;
+  font-size     : 32px;
+  list-style    : none;
+  margin-right  : 32px;
+}
+
+.App-nav-item a {
+  text-decoration : none;
+  cursor : pointer;
+}
+
+.App-nav-item a:hover {
+  color : #999;
+}
+
+.App-nav-item.selected {
+  border-bottom-color : #ffaa3f;
+}
+
+.App-content {
+  margin : 0 20px;
+}
